@@ -1,0 +1,58 @@
+Tally_Group,Tally_Ledger_Name,SAP_Chart_of_Accounts,SAP_GL_Account,SAP_GL_Long_Text,Account_Type,Recon_Account_Type,Field_Status_Group,Currency,Tax_Category,Remarks_Mapping_Rule
+Bank Accounts,HDFC Bank Current A/c - 5020001,COA1,100100,HDFC Bank Main Operating Account,X,,G005,INR,,Primary disbursement and collections
+Bank Accounts,ICICI Bank Inward Clearing A/c,COA1,100110,ICICI Bank Inward Clearing Account,X,,G005,INR,,Sub-account for electronic incoming funds
+Bank Accounts,SBI Outward Cheque Clearing A/c,COA1,100120,SBI Bank Outward Payment Clearing,X,,G005,INR,,Sub-account for vendor issued cheques
+Cash-in-Hand,Petty Cash - Pune Plant,COA1,100200,Petty Cash Imprest - Pune Plant,X,,G001,INR,,Daily factory petty cash fund
+Cash-in-Hand,Petty Cash - Chennai Office,COA1,100210,Petty Cash Imprest - Chennai Office,X,,G001,INR,,Branch office petty expenses
+Deposits (Asset),Security Deposit - Factory Lease,COA1,100300,Security Deposit - Factory Premises,X,,G001,INR,,Non-current refundable deposit
+Deposits (Asset),Electricity Deposit - MSEDCL,COA1,100310,Electricity Utility Security Deposit,X,,G001,INR,,State electricity board deposit
+Sundry Debtors,Sundry Debtors Control / Domestic,COA1,100500,Trade Accounts Receivable - Domestic,X,D,G067,INR,,Customer Recon Account (Auto-posted from BP)
+Sundry Debtors,Sundry Debtors Control / Exports,COA1,100510,Trade Accounts Receivable - Foreign,X,D,G067,USD,,Foreign Customer Recon Account
+Loans & Advances (Asset),Employee Travel Advance,COA1,100600,Employee Travel & Business Advance,X,,G001,INR,,Advance to staff (cleared via expense claims)
+Duties & Taxes,Input CGST @ 9%,COA1,100800,Input CGST Receivable 9%,X,,G001,INR,<,Input tax credit under GST
+Duties & Taxes,Input SGST @ 9%,COA1,100810,Input SGST Receivable 9%,X,,G001,INR,<,Input tax credit under GST
+Duties & Taxes,Input IGST @ 18%,COA1,100820,Input IGST Receivable 18%,X,,G001,INR,<,Interstate input tax credit
+Duties & Taxes,Input RCM CGST Paid,COA1,100830,Input GST Paid under Reverse Charge,X,,G001,INR,<,RCM tax credit asset
+Fixed Assets,Plant and Machinery,COA1,110100,Plant and Machinery - Acquisition Cost,X,A,G067,INR,,Asset Balance Sheet GL (Subledger integrated)
+Fixed Assets,Accumulated Depr - Plant & Mach,COA1,110110,Accumulated Depreciation - Plant & Mach,X,A,G067,INR,,Contra-asset GL for balance sheet
+Fixed Assets,Office Equipment,COA1,110200,Office and IT Equipment - Cost,X,A,G067,INR,,Computers, servers, laptops
+Fixed Assets,Accumulated Depr - Office Equip,COA1,110210,Accumulated Depreciation - Office Equip,X,A,G067,INR,,Contra-asset GL
+Fixed Assets,Factory Building,COA1,110300,Factory Industrial Building - Cost,X,A,G067,INR,,Factory physical infrastructure
+Fixed Assets,Accumulated Depr - Factory Bldg,COA1,110310,Accumulated Depreciation - Factory Bldg,X,A,G067,INR,,Contra-asset GL
+Stock-in-Hand,Raw Material Stock,COA1,120100,Inventory - Raw Materials Balance,X,,G006,INR,,Balance sheet inventory GL
+Stock-in-Hand,Semi-Finished Goods,COA1,120200,Inventory - Work in Progress (WIP),X,,G006,INR,,WIP production inventory
+Stock-in-Hand,Finished Goods Inventory,COA1,120300,Inventory - Finished Goods Stock,X,,G006,INR,,Finished inventory stock
+Sundry Creditors,Sundry Creditors - Raw Material,COA1,200100,Trade Accounts Payable - Domestic RM,X,K,G067,INR,,Vendor Recon Account (Auto-posted from BP)
+Sundry Creditors,Sundry Creditors - Services,COA1,200110,Trade Accounts Payable - Services & Utilities,X,K,G067,INR,,Service Provider Recon Account
+Sundry Creditors,Sundry Creditors - Import RM,COA1,200120,Trade Accounts Payable - Foreign Vendors,X,K,G067,USD,,Import vendor recon account
+Duties & Taxes,Output CGST @ 9%,COA1,200500,Output CGST Payable 9%,X,,G001,INR,>,Output liability on domestic sales
+Duties & Taxes,Output SGST @ 9%,COA1,200510,Output SGST Payable 9%,X,,G001,INR,>,Output liability on domestic sales
+Duties & Taxes,Output IGST @ 18%,COA1,200520,Output IGST Payable 18%,X,,G001,INR,>,Output liability on interstate sales
+Duties & Taxes,TDS Payable - Contractors 194C,COA1,200600,TDS Payable on Works Contract u/s 194C,X,,G001,INR,,Statutory withholding tax liability
+Duties & Taxes,TDS Payable - Prof Fees 194J,COA1,200610,TDS Payable on Professional Fees u/s 194J,X,,G001,INR,,Statutory withholding tax liability
+Duties & Taxes,TDS Payable - Rent 194I,COA1,200620,TDS Payable on Rent u/s 194I,X,,G001,INR,,Statutory withholding tax liability
+Duties & Taxes,PF and ESI Payable,COA1,200630,Provident Fund & ESIC Statutory Payable,X,,G001,INR,,Employee payroll statutory deduction
+Provisions,Provision for Audit Fees,COA1,200700,Accrued Audit and Legal Expenses,X,,G001,INR,,Year-end statutory audit provision
+Provisions,Provision for Bonus,COA1,200710,Provision for Employee Annual Bonus,X,,G001,INR,,Year-end payroll bonus accrual
+Secured Loans,HDFC Term Loan A/c,COA1,210100,Secured Term Loan - Plant Expansion,X,,G001,INR,,Long-term banking liability
+Secured Loans,Bajaj Finance Machinery Loan,COA1,210110,Secured Equipment Financing Loan,X,,G001,INR,,Medium term machinery loan
+Capital Account,Equity Share Capital,COA1,300100,Paid-up Equity Share Capital,X,,G001,INR,,Shareholders paid-up capital
+Reserves & Surplus,General Reserve,COA1,300200,General Retained Reserves,X,,G001,INR,,Accumulated business retained earnings
+Reserves & Surplus,Retained Earnings (P&L A/c),COA1,300300,Retained Earnings Balance Sheet Carryover,X,,G001,INR,,S/4HANA Retained Earnings GL
+Sales Accounts,Domestic Sales - Automobile Parts,COA1,400100,Revenue - Domestic Component Sales,P,,G029,INR,>,Operating revenue (Cost Element Type 1)
+Sales Accounts,Export Sales - Component Supply,COA1,400110,Revenue - Export Component Sales,P,,G029,INR,,Foreign revenue zero-rated
+Sales Accounts,Scrap and By-Product Sales,COA1,400200,Revenue - Metal Scrap Disposal Sales,P,,G029,INR,>,Secondary plant scrap sale revenue
+Direct Expenses,Purchase of Steel & Raw Material,COA1,500100,Raw Material Consumption - Steel Billets,P,,G001,INR,,Primary operating material expense
+Direct Expenses,Freight and Cartage Inward,COA1,500200,Freight Inward & Logistics Transportation,P,,G001,INR,,Inbound shipping cost allocated to stock
+Direct Expenses,Direct Factory Wages,COA1,500300,Factory Direct Labor & Overtime Wages,P,,G001,INR,,Direct manufacturing wages
+Indirect Expenses,Power & Fuel - Manufacturing,COA1,510100,Factory Power, Fuel & Industrial Water,P,,G001,INR,,Plant electricity and diesel generator
+Indirect Expenses,Factory Rent & Maintenance,COA1,510200,Factory Premises Rent & Building Upkeep,P,,G001,INR,,Plant lease expense
+Indirect Expenses,Staff Salaries & Allowances,COA1,520100,Corporate Salaries & Admin Allowances,P,,G001,INR,,Head office staff salary
+Indirect Expenses,Staff Welfare & Refreshment,COA1,520200,Staff Welfare, Canteen & Medical,P,,G001,INR,,Employee welfare cost
+Indirect Expenses,Printing & Stationery,COA1,520300,Office Printing, Stationery & Supplies,P,,G001,INR,,Office consumables
+Indirect Expenses,Telephone & Internet Charges,COA1,520400,Telecommunication & Cloud Server Bills,P,,G001,INR,,Connectivity and IT expenses
+Indirect Expenses,Legal and Professional Charges,COA1,520500,Legal Advisory & Professional Consultant,P,,G001,INR,,Consultant and legal retainer fees
+Indirect Expenses,Bank Charges & Processing Fee,COA1,520600,Bank Transaction Fees & LC Charges,N,,G001,INR,,Non-operating financial expense
+Indirect Expenses,Depreciation Expense - Machinery,COA1,530100,Depreciation on Plant and Machinery,P,,G001,INR,,Periodic P&L depreciation run
+Indirect Expenses,Depreciation Expense - Office Eq,COA1,530200,Depreciation on IT & Office Equipment,P,,G001,INR,,Periodic P&L depreciation run
+Cutover Clearing,Tally Migration Balance Clearing,COA1,999999,Legacy Migration Cutover Clearing GL,X,,G001,INR,,Zero-balance technical clearing account

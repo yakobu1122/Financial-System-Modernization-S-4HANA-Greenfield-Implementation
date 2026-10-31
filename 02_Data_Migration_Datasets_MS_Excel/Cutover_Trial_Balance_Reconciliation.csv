@@ -1,0 +1,43 @@
+GL_Code,GL_Account_Name,Tally_Debit_INR,Tally_Credit_INR,SAP_Debit_INR,SAP_Credit_INR,Debit_Variance,Credit_Variance,Audit_Status,Cutover_Notes
+100100,HDFC Bank Main Operating Account,12450000.00,0.00,12450000.00,0.00,0.00,0.00,Matched,Confirmed via March 31 Bank Reconciliation Statement
+100110,ICICI Bank Inward Clearing Account,1850000.00,0.00,1850000.00,0.00,0.00,0.00,Matched,Pending NEFT credits cleared in April 02
+100120,SBI Bank Outward Payment Clearing,0.00,820000.00,0.00,820000.00,0.00,0.00,Matched,Unpresented cheques matched to BRS
+100200,Petty Cash Imprest - Pune Plant,75000.00,0.00,75000.00,0.00,0.00,0.00,Matched,Physically verified cash certificate
+100210,Petty Cash Imprest - Chennai Office,45000.00,0.00,45000.00,0.00,0.00,0.00,Matched,Physically verified cash certificate
+100300,Security Deposit - Factory Premises,2500000.00,0.00,2500000.00,0.00,0.00,0.00,Matched,Lease agreement verified
+100310,Electricity Utility Security Deposit,450000.00,0.00,450000.00,0.00,0.00,0.00,Matched,MSEDCL deposit receipt verified
+100500,Trade Accounts Receivable - Domestic,54200000.00,0.00,54200000.00,0.00,0.00,0.00,Matched,Reconciled to open customer item upload
+100510,Trade Accounts Receivable - Foreign,12800000.00,0.00,12800000.00,0.00,0.00,0.00,Matched,Revalued at RBI cutover exchange rate
+100600,Employee Travel & Business Advance,380000.00,0.00,380000.00,0.00,0.00,0.00,Matched,Individual staff balances confirmed
+100800,Input CGST Receivable 9%,3450000.00,0.00,3450000.00,0.00,0.00,0.00,Matched,Matched to GSTR-2B March return
+100810,Input SGST Receivable 9%,3450000.00,0.00,3450000.00,0.00,0.00,0.00,Matched,Matched to GSTR-2B March return
+100820,Input IGST Receivable 18%,4120000.00,0.00,4120000.00,0.00,0.00,0.00,Matched,Matched to GSTR-2B March return
+100830,Input GST Paid under Reverse Charge,240000.00,0.00,240000.00,0.00,0.00,0.00,Matched,RCM liability paid in cash & ITC claimed
+110100,Plant and Machinery - Acquisition Cost,145000000.00,0.00,145000000.00,0.00,0.00,0.00,Matched,Reconciled with Fixed Asset Register (FAR)
+110110,Accumulated Depreciation - Plant & Mach,0.00,42500000.00,0.00,42500000.00,0.00,0.00,Matched,Depreciation till March 31 verified
+110200,Office and IT Equipment - Cost,12500000.00,0.00,12500000.00,0.00,0.00,0.00,Matched,IT asset barcode register matched
+110210,Accumulated Depreciation - Office Equip,0.00,5800000.00,0.00,5800000.00,0.00,0.00,Matched,Useful life Companies Act Sch II compliant
+110300,Factory Industrial Building - Cost,85000000.00,0.00,85000000.00,0.00,0.00,0.00,Matched,Title deed and architectural valuation
+110310,Accumulated Depreciation - Factory Bldg,0.00,16200000.00,0.00,16200000.00,0.00,0.00,Matched,Building depreciation verified
+120100,Inventory - Raw Materials Balance,38500000.00,0.00,38500000.00,0.00,0.00,0.00,Matched,Year-end physical inventory count verified
+120200,Inventory - Work in Progress (WIP),14200000.00,0.00,14200000.00,0.00,0.00,0.00,Matched,Shop-floor stage production valuation
+120300,Inventory - Finished Goods Stock,26500000.00,0.00,26500000.00,0.00,0.00,0.00,Matched,Finished goods warehouse audit matched
+200100,Trade Accounts Payable - Domestic RM,0.00,48900000.00,0.00,48900000.00,0.00,0.00,Matched,Reconciled to open vendor item upload
+200110,Trade Accounts Payable - Services,0.00,6400000.00,0.00,6400000.00,0.00,0.00,Matched,Utility & contractor invoices verified
+200120,Trade Accounts Payable - Foreign Vendors,0.00,8500000.00,0.00,8500000.00,0.00,0.00,Matched,Revalued at closing FEDAI spot rate
+200500,Output CGST Payable 9%,0.00,2850000.00,0.00,2850000.00,0.00,0.00,Matched,Reconciled to GSTR-1 March filing
+200510,Output SGST Payable 9%,0.00,2850000.00,0.00,2850000.00,0.00,0.00,Matched,Reconciled to GSTR-1 March filing
+200520,Output IGST Payable 18%,0.00,3600000.00,0.00,3600000.00,0.00,0.00,Matched,Reconciled to GSTR-1 March filing
+200600,TDS Payable on Works Contract u/s 194C,0.00,420000.00,0.00,420000.00,0.00,0.00,Matched,Deposited in April challan (Challan 281)
+200610,TDS Payable on Professional Fees u/s 194J,0.00,310000.00,0.00,310000.00,0.00,0.00,Matched,Deposited in April challan (Challan 281)
+200620,TDS Payable on Rent u/s 194I,0.00,180000.00,0.00,180000.00,0.00,0.00,Matched,Deposited in April challan (Challan 281)
+200630,Provident Fund & ESIC Statutory Payable,0.00,890000.00,0.00,890000.00,0.00,0.00,Matched,ECR filing matched with payroll register
+200700,Accrued Audit and Legal Expenses,0.00,650000.00,0.00,650000.00,0.00,0.00,Matched,Auditor confirmation letter verified
+200710,Provision for Employee Annual Bonus,0.00,3200000.00,0.00,3200000.00,0.00,0.00,Matched,Management approved bonus sheet
+210100,Secured Term Loan - Plant Expansion,0.00,65000000.00,0.00,65000000.00,0.00,0.00,Matched,Bank loan sanction & balance certificate
+210110,Secured Equipment Financing Loan,0.00,18500000.00,0.00,18500000.00,0.00,0.00,Matched,NBFC statement of account matched
+300100,Paid-up Equity Share Capital,0.00,100000000.00,0.00,100000000.00,0.00,0.00,Matched,MCA Form PAS-3 and ROC filings verified
+300200,General Retained Reserves,0.00,85000000.00,0.00,85000000.00,0.00,0.00,Matched,Previous years audited balance sheet carryover
+300300,Retained Earnings Balance Sheet Carryover,0.00,53440000.00,0.00,53440000.00,0.00,0.00,Matched,Net Profit carried forward to S/4HANA Retained Earnings
+999999,Legacy Migration Cutover Clearing GL,0.00,0.00,0.00,0.00,0.00,0.00,Zero Balance,Technical clearing account net zero after cutover
+TOTAL_SUM,Trial Balance Balance Check,417560000.00,417560000.00,417560000.00,417560000.00,0.00,0.00,Perfect Match,Zero Variance Verified by Lead Finance Analyst
